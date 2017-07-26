@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "microsoft yahei","宋体";}
+select, input { vertical-align:middle;}
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0;	vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙*/
+table { border-collapse:collapse; }
+body {
+    font:14px/150% Arial,Verdana,"microsoft yahei";
+    color:#666;
+    background: #fff;
+    position: relative;
+}
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+a {color: #222; text-decoration:none !important; transition: all 120ms linear 0ms;}
+a:hover{color: #3B5998;}
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+dt, dd {
+    line-height: 1em;
+}
+
+/*公共类*/
+.w {  /*版心 提取 */
+    width: 1000px;margin:0 auto;
+}
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+.al {
+    text-align:left
+}
+.ac {
+    text-align:center
+}
+.ar {
+    text-align:right
+}
+.hide {
+    display:none
+}
+
+.header {
+    background-color: #3B5998;
+    height: 120px;
+    overflow: hidden;
+    border-bottom: 1px solid #F2BC33;
+}
+/*.header .top-border {*/
+    /*height: 2px;*/
+    /*width: 100%;*/
+    /*background-color: #F2BC33;*/
+/*}*/
+.header .logo {
+    padding-top: 6px;
+    max-width: 130%;
+    max-height: 130%;
+    display: inline-block;
+}
+
+.header .rightbox {
+    height: 120px;
+    position: relative;
+}
+.header .login {
+    padding-right: -20px;
+    float: right;
+}
+.header .login ul {
+    list-style: none;
+    padding-right: 5px;
+}
+.header .login ul li {
+    padding-top: 10px;
+    float: left;
+    height: 24px;
+    color: #fff;
+}
+
+.header .login ul li a {
+    text-align: center;
+
+    margin-left: 8px;
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 250ms linear 0ms;
+
+}
+.header .login ul li a:hover {
+    color: #ffca32;
+}
+.header .nav {
+    float: right;
+    width: 500px;
+    position: absolute;
+    bottom: 4px;
+    right: 10px;
+    font-size: 16px;
+}
+.header .nav ul {
+    list-style: none;
+}
+.header .nav ul li {
+    float: right;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+}
+.header .nav ul li a {
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    width: 80px;
+    color: #f3f3f3;
+    line-height: 50px;
+    transition: all 250ms linear 0ms;
+    border-bottom: 2px solid #3B5998;
+}
+.header .nav ul li a:hover {
+    /*border-bottom: 2px solid #F2BC33;*/
+    color: #ffc735;
+    border-bottom: 2px solid #ffc735;
+}
+
+.footer {
+    background-color: #3B5998;
+    width: 100%;
+    height: 140px;
+    border-bottom: 2px solid #F2BC33;
+    margin-top: 80px;
+    position: relative;
+    top: 0;
+    font-size: 12px;
+    line-height: 18px;
+}
+.footer .addr{
+    padding: 10px 0 0 20px;
+    position: absolute;
+    top: 6px;
+    left: 50%;
+}
+.footer .addr ul {
+    padding-left: 30px;
+    color: white;
+    font-size: 12px;
+}
+.footer .addr ul li {
+    color: white;
+    font-size: 12px;
+}
+.footer .addr ul li a {
+    color: white;
+    font-size: 12px;
+}
+.footer .addr ul li a:hover {
+    color: #F2BC33;
+}
+.footer-logo {
+    border-right: 1px solid #fff;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -340px;
+    padding-right: 40px;
+
+}
+.footer-logo img {
+    width: 300px;
+    height: 90px;
+    line-height: 120px;
+}

@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+.spon .padding-left-14 {
+    padding-left: 14px;
+}
+.banner {
+    height: 180px;
+    background: #3E3874;
+    /*border-top: 1px solid #FEC52E;*/
+
+}
+.banner h1 {
+    padding-top: 20px;
+    font-weight: 500;
+    text-shadow: 2px 2px #333;
+
+}
+.banner s {
+    color: #FEC52E;
+    font-size: 28px;
+    line-height: 40px;
+
+}
+.banner i {
+    font-size: 20px;
+    color: #FEC52E;
+    line-height: 22px;
+}
+.banner span {
+    color: #fff;
+    text-align: left;
+    font-size: 26px;
+    line-height: 70px;
+}
+
+.content .tab {
+
+    height: 54px;
+    background-color: #3B5998;
+    margin: 20px auto 0;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 10px;
+    line-height: 50px;
+    border-radius: 10px 10px 0 0;
+
+
+}
+.tab span {
+    padding: 0 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+.content .about,
+.content .prog,
+.content .exhi,
+.content .spon,
+.content .subm {
+    /*width: 718px;*/
+    border: 1px solid #ddd;
+    margin: 10px auto;
+    padding: 20px 40px;
+    line-height: 26px;
+}
+.about ul {
+    /*list-style: disc;*/
+    padding: 10px 0 0 20px;
+    font-size: 14px;
+}
+.about .title {
+    font-size: 20px;
+    color: #3B5998;
+    padding-bottom: 10px;
+}
+.about .sum {
+    text-indent: 2em;
+    display: inline-block;
+}
+.about .topic {
+    font-size: 20px;
+    color: #3B5998;
+    padding-top: 10px;
+}
+.ogn p,
+.prog p,
+.exhi p,
+.spon p,
+.subm p {
+    padding: 10px 0;
+    font-size: 20px;
+    color: #3B5998;
+}
+.about span,
+.prog span,
+.exhi span,
+.spon span,
+.subm span {
+    font-size: 16px;
+}
+#pro-nav span:hover {
+    border-bottom: 3px solid #FEC52E;
+
+}
+.pro-nav-bg {
+    border-bottom: 3px solid #FEC52E;
+}
+.prog,
+.exhi,
+.spon,
+.subm {
+    display: none;
+}
+.download-doc {
+
+}
+.download-doc .download-doc-header {
+    background-color: #3B5998;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 20px;
+    margin-top: 20px;
+    height: 54px;
+    line-height: 54px;
+    border-radius: 10px 10px 0 0;
+}
+.download-doc .download-doc-content {
+    border: 1px solid #ccc;
+
+}
+.download-doc-content .download-doc-item {
+    padding-left: 20px;
+    line-height: 24px;
+    font-size: 14px;
+}
